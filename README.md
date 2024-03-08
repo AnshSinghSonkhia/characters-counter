@@ -22,7 +22,7 @@ Use by calling functions:
 
 
 ```js
-const charCount = require('characters-counter');
+import charCount from 'characters-counter';
 
 const inputText = `
     This is a dummy lorem-ipsum text:

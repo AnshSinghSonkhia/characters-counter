@@ -23,11 +23,19 @@ function countPara(text) {
     return (text.trim().split(/\n\s*\n/)).length;
 }
 
-module.exports = {
-    countChar,
-    countCharNoSpaces,
-    countWords,
-    countSpaces,
-    countSentences,
-    countPara
-};
+// module.exports = {
+//     countChar,
+//     countCharNoSpaces,
+//     countWords,
+//     countSpaces,
+//     countSentences,
+//     countPara
+// };
+
+// Exporting functions as named exports:
+module.exports.countChar = countChar;
+module.exports.countCharNoSpaces = countCharNoSpaces;
+module.exports.countWords = countWords;
+module.exports.countSpaces = countSpaces;
+module.exports.countSentences = countSentences;
+module.exports.countPara = countPara;
