@@ -4,7 +4,7 @@
   "description": "The fastest real-time characters, words, sentences, paragraphs counter for your text.",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,12 +23,16 @@
     "paragraph-counter",
     "total-characters",
     "total-words",
-    "text-features"
+    "text-features",
+    "emoji-counter"
   ],
   "author": "Ansh Singh Sonkhia",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/AnshSinghSonkhia/characters-counter/issues"
   },
-  "homepage": "https://github.com/AnshSinghSonkhia/characters-counter#readme"
+  "homepage": "https://github.com/AnshSinghSonkhia/characters-counter#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

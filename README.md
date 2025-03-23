@@ -19,6 +19,7 @@ Use by calling functions:
 - `countSpaces` -> Counts total spaces.
 - `countSentences` -> Counts total Sentences.
 - `countPara` -> Counts total Paragraphs.
+- `countEmojis` -> Counts total emojis in text.
 
 
 ```js
@@ -27,7 +28,7 @@ import charCount from 'characters-counter';
 const inputText = `
     This is a dummy lorem-ipsum text:
 
-    NEW DELHI: Ireland on Friday created history, claiming their first-ever Test win against Afghanistan in Abu Dhabi
+    NEW DELHI: Ireland on Friday created history, claiming their first-ever Test win against Afghanistan in Abu Dhabi 🔥
     
     The maiden Test win for Ireland came in their 8th game in the traditional format.
     
@@ -40,6 +41,7 @@ console.log("Total words:", charCount.countWords(inputText));
 console.log("Total spaces:", charCount.countSpaces(inputText));
 console.log("Total sentences:", charCount.countSentences(inputText));
 console.log("Total paragraphs:", charCount.countPara(inputText));
+console.log("Total Emojis:", charCount.countEmojis(inputText));
 ```
 
 <!--

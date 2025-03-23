@@ -1,0 +1,13 @@
+node_modules
+dist
+coverage
+.DS_Store
+.env
+*.log
+*.tmp
+*.swp
+.idea
+.vscode
+*.iml
+
+index.test.js
