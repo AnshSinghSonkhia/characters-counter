@@ -1,6 +1,6 @@
 {
   "name": "characters-counter",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "The fastest real-time characters, words, sentences, paragraphs counter for your text.",
   "main": "index.js",
   "scripts": {
