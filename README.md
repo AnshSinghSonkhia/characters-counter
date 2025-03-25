@@ -1,7 +1,7 @@
 # characters-counter
+The fastest real-time characters, words, sentences, paragraphs counter for your text.
 
-<code><img height="30" src="https://img.shields.io/badge/NPM-111111?style=for-the-badge&logo=npm&logoColor=#c63635"></code>
-<code><img height="30" src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></code>
+[![npm](https://img.shields.io/npm/v/characters-counter.svg)](https://www.npmjs.com/package/characters-counter)  [![License](https://img.shields.io/npm/l/characters-counter.svg)](LICENSE)  [![Downloads](https://img.shields.io/npm/dt/characters-counter.svg)](https://www.npmjs.com/package/characters-counter) 
 
 
 # Installation
